@@ -1,0 +1,150 @@
+.flexible-job-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    height: 70px;
+    margin:0 auto;
+    margin-top:13px;
+    background: #FFFFFF;
+    border: 1px solid #BABABA;
+    border-radius: 20px;
+    justify-content: space-between;
+  }
+  
+  .company-photo-div{
+    margin-left: 16px;
+  }
+  
+  .position-company-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:20px;
+    font-size: 16px;
+    color: #171725;
+    width: 350px;
+    flex-grow: 5;
+    flex-shrink: 5;
+  }
+  
+  .company-name
+  {
+    opacity: 0.3;
+  }
+  
+  .tags-status{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:200px;
+    overflow: hidden;
+  }
+  
+  .tags-status-div-1
+  {
+    color: #0062FF;
+    letter-spacing: 0.1 px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .tags-status-div-2{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .tags-status-div-2-div-1{
+    margin-top:7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+  }
+  
+  .tags-status-div-2-div-2{
+    margin-left: 4px;
+    font-size: 12px;
+    color: #696974;
+  
+  }
+  
+  .salary{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+  }
+  
+  .salary-icon{
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #F1F1F5 ;
+  }
+  
+  .salary-money{
+    margin-left: 3px;
+    font-size: 14px;
+    color: #25282A;
+  }
+  
+  .apply-button{
+    width:85px;
+    height: 45px;
+    background: #7B7CE6;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .company-img{
+    width: 42px;
+    height: 42px;
+    border: 2px solid #F4F4F7;
+    border-radius: 14px;
+  }
+
+
+
+  @media screen and (max-width:1224px){
+    .position-company-div{
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width:1024px){
+    .position-company-div{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width:824px){
+    .position-company-div{
+      font-size: 10px;
+    }
+    .tags-status-div-1{
+      font-size: 12px;
+    }
+    .tags-status-div-2-div-2{
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width:624px){
+    .position-company-div{
+      font-size: 8px;
+    }
+    .tags-status-div-1{
+      font-size: 10px;
+    }
+    .tags-status-div-2-div-2{
+      font-size: 8px;
+    }
+  }
+
